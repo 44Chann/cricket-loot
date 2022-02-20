@@ -45,7 +45,7 @@ img {
 .logo {
   max-width: max-content;
   width: 100%;
-  font-size: clamp(3.2rem, 10vw, 6rem);
+  font-size: clamp(3.2rem, 20vw, 6rem);
   margin: 35px auto 20px auto;
   text-align: center;
 }
