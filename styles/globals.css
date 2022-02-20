@@ -136,14 +136,17 @@ img {
 }
 
 .info {
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .info p {
-  font-size: clamp(2rem, 4vw, 3rem);
+  font-size: 2rem;
 }
 
 @media screen and (min-width: 800px) {
+  .info p {
+    font-size: 3rem;
+  }
   .logo {
     width: max-content;
   }
@@ -209,6 +212,7 @@ img {
 }
 
 .info {
+  font-size: 3rem;
   width: max-content;
 }
 
