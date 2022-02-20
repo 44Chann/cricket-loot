@@ -1,3 +1,4 @@
+import Hero from "./hero";
 import MintSection from "./mintcard";
 const Mainsection = () => {
   {
@@ -7,6 +8,9 @@ const Mainsection = () => {
           <div className="postionincontainer">
             <div className="main-section">
               <MintSection />
+            </div>
+            <div className="hero-section">
+              <Hero />
             </div>
           </div>
         </div>

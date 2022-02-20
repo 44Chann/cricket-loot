@@ -1,6 +1,6 @@
 const Mintbtn = () => {
   return (
-    <button>
+    <button className="container-btn">
       <img src="/images/mint.svg" alt="" />
     </button>
   );

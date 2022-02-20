@@ -29,7 +29,6 @@ img {
 
 .container-narrow {
   text-align: center;
-  border: 1px solid wheat;
   width: min(90%, 1440px);
   margin: auto;
 }
@@ -45,7 +44,6 @@ img {
 
 .logo {
   max-width: max-content;
-  border: 1px solid white;
   width: 100%;
   font-size: clamp(3.2rem, 10vw, 6rem);
   margin: 35px auto 20px auto;
@@ -117,17 +115,19 @@ img {
 }
 
 .hero-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
-  max-width: 150px;
+  max-width: 200px;
   margin: auto;
   margin-top: 20px;
   text-align: center;
 }
 
 .hero-card img {
-  margin: auto;
   width: 100%;
-  max-width: 200px;
+  max-width: 150px;
 }
 
 .main-section {
@@ -149,7 +149,6 @@ img {
     margin-bottom: 35px;
   }
   .hero-cards {
-    border: 1px solid wheat;
     max-width: 700px;
     /* width: 95%; */
     display: flex;
@@ -197,4 +196,13 @@ img {
     order: 1px solid;
     order: 2;
   }
+}
+
+.info {
+  width: max-content;
+}
+
+.container-btn {
+  border: none;
+  background-color: transparent;
 }

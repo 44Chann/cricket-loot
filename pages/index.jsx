@@ -1,5 +1,5 @@
-import Preview from "./componets/left";
-import Mainsection from "./componets/right";
+import Preview from "./componets/preview";
+import Mainsection from "./componets/mainsection";
 
 export default function Home() {
   return (
