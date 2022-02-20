@@ -1,6 +1,6 @@
-import { Mintbtn } from "./mintbtn";
+import Mintbtn from "./mintbtn";
 
-export const MintSection = () => {
+const MintSection = () => {
   return (
     <div className="mint-section">
       <div className="mintcard"></div>
@@ -10,3 +10,5 @@ export const MintSection = () => {
     </div>
   );
 };
+
+export default MintSection;

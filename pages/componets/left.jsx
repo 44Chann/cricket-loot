@@ -1,4 +1,4 @@
-export const Preview = () => {
+const Preview = () => {
   return (
     <div className="narrow-container">
       <div className="top-section">
@@ -12,3 +12,5 @@ export const Preview = () => {
     </div>
   );
 };
+
+export default Preview;

@@ -1,6 +1,5 @@
-import { MintSection } from "./mintcard";
-
-export const Mainsection = () => {
+import MintSection from "./mintcard";
+const Mainsection = () => {
   {
     return (
       <div className="hero-cards-container">
@@ -15,3 +14,5 @@ export const Mainsection = () => {
     );
   }
 };
+
+export default Mainsection;
