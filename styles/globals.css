@@ -106,7 +106,7 @@ img {
   margin-inline: 15px;
   width: max-content;
   text-align: center;
-  font-size: clamp(1rem, 4vw, 3rem);
+  font-size: 1rem;
 }
 
 .hero-cards {
@@ -144,6 +144,9 @@ img {
 }
 
 @media screen and (min-width: 800px) {
+  .logo {
+    width: max-content;
+  }
   .hero-section {
     margin: auto;
     max-width: 800px;
@@ -158,6 +161,7 @@ img {
 
   .hero-text {
     width: max-content;
+    font-size: 2rem;
   }
 }
 
@@ -172,8 +176,13 @@ img {
     display: flex;
   }
 
+  .hero-text {
+    font-size: 3rem;
+  }
+
   .logo {
     width: min-content;
+    font-size: 6rem;
   }
 
   .left {

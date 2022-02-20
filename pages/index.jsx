@@ -1,6 +1,5 @@
 import Preview from "./componets/preview";
 import Mainsection from "./componets/mainsection";
-import Head from "next/head";
 
 export default function Home() {
   return (
