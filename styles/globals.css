@@ -43,8 +43,8 @@ img {
 }
 
 .logo {
-  max-width: max-content;
-  width: 100%;
+  max-width: 100%;
+  width: min-content;
   /* font-size: clamp(rem, 20vw, 6rem); */
   font-size: 3rem;
   margin: 35px auto 20px auto;
