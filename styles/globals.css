@@ -12,20 +12,24 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  width: 100%;
-  height: 100%;
+html {
+  background-image: url("/images/Desktop_-_5.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url("/images/Desktop_-_5.png");
+  /* height: 110vh; */
+}
+
+body {
+  /* width: 100%;
+  height: 100%; */
 }
 
 img {
   display: block;
 }
-.container {
+/* .container {
   height: 100%;
-}
+} */
 
 .container-narrow {
   text-align: center;
@@ -143,6 +147,19 @@ img {
   font-size: 2rem;
 }
 
+.mintinput {
+  width: 100%;
+  padding: 12px;
+  background-color: transparent;
+  margin-bottom: 25px;
+  border: none;
+  border-bottom: 1px solid gold;
+}
+.mintinput:focus {
+  outline: none;
+  /* border: none; */
+}
+
 @media screen and (min-width: 800px) {
   .info p {
     font-size: 3rem;
@@ -169,14 +186,15 @@ img {
 }
 
 @media screen and (min-width: 1440px) {
-  body {
+  html {
     width: 100vw;
-    height: 100vh;
+    height: 110vh;
   }
   .container {
     width: 80%;
     margin: auto;
     display: flex;
+    align-items: flex-start;
   }
 
   .hero-text {
@@ -197,7 +215,7 @@ img {
   }
 
   .right {
-    margin-top: 55px;
+    padding-top: 20px;
     width: 60%;
   }
 
