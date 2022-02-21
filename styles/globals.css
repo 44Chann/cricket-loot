@@ -80,13 +80,26 @@ img {
 
 .mintbtn {
   margin: 25px auto;
-  width: 200px;
+  width: 400px;
 }
-.mintbtn img {
+
+/* container-btn {
+  border: 2px solid white;
+  background-color: #6bffe4;
+} */
+
+.mint {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+/* .mintbtn img {
   width: 100%;
   max-width: 400px;
   margin: auto;
-}
+} */
 
 .hero-section {
   background-color: rgba(62, 61, 61, 0.88);
@@ -136,6 +149,7 @@ img {
 }
 
 .main-section {
+  width: 100%;
   margin-bottom: 0px;
 }
 
@@ -152,6 +166,8 @@ img {
   padding: 12px;
   background-color: transparent;
   margin-bottom: 25px;
+  font-size: 2rem;
+  font-family: sans-serif;
   border: none;
   border-bottom: 1px solid gold;
 }
@@ -188,7 +204,7 @@ img {
 @media screen and (min-width: 1440px) {
   html {
     width: 100vw;
-    height: 110vh;
+    height: 100vh;
   }
   .container {
     width: 80%;
