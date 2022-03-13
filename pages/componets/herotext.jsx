@@ -3,7 +3,7 @@ const HeroText = () => {
     <div className="hero-text-section">
       <img src="/images/ball.svg" alt="" />
       <div className="hero-text">
-        <h2 className="text-shadow">GENTATED FULLY ON CHAIN</h2>
+        <h2 className="text-shadow">GENERATED FULLY ON CHAIN</h2>
       </div>
       <img src="/images/ball.svg" alt="" />
     </div>
